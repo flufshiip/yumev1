@@ -60,7 +60,7 @@
 .blog-post-card4-root-class-name5 {
   margin-bottom: 48px;
 }
-@media(max-width: 480px) {
+@media(max-width: 460px) {
   .blog-post-card4-blog-post-card {
     border-radius: 10px;
   }

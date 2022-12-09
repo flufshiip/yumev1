@@ -60,7 +60,7 @@
 .blog-post-card4-root-class-name5 {
   margin-bottom: 48px;
 }
-@media(max-width: 480px) {
+@media(max-width: 460px) {
   .blog-post-card4-blog-post-card {
     border-radius: 10px;
   }
@@ -1480,7 +1480,61 @@
     margin-right: var(--dl-space-space-fourunits);
   }
 }
-@media(max-width: 480px) {
+@media(max-width: 479px) {
+  .home-container02 {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .home-pricing-card2 {
+    margin-bottom: 0px;
+  }
+  .home-education1 {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .home-footer {
+    padding: var(--dl-space-space-unit);
+  }
+  .home-container05 {
+    align-items: center;
+    flex-direction: column;
+  }
+  .home-image6 {
+    margin-bottom: 0px;
+  }
+  .home-text27 {
+    margin-top: var(--dl-space-space-twounits);
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .home-text28 {
+    margin-top: var(--dl-space-space-twounits);
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .home-links-container {
+    align-items: center;
+    flex-direction: column;
+  }
+  .home-container07 {
+    margin-right: 0px;
+  }
+  .home-container08 {
+    margin-top: var(--dl-space-space-oneandhalfunits);
+    align-items: flex-start;
+    margin-bottom: 0px;
+  }
+  .home-contact {
+    align-items: flex-start;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .home-text34 {
+    text-align: center;
+  }
+}
+@media(max-width: 460px) {
   .home-home {
     width: 100%;
   }
@@ -1599,6 +1653,8 @@
     width: 100%;
     height: 100%;
     align-self: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
     background-image: linear-gradient(180deg, rgba(254, 172, 94, 0.25) 0.00%,rgba(199, 121, 208, 0.25) 52.00%,rgba(75, 192, 200, 0.25) 99.00%);
   }
   .home-skillsimg {
@@ -1621,10 +1677,7 @@
     gap: 25px;
     width: 100%;
     height: 100%;
-    padding-top: 150px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 100px;
+    padding: 50px;
   }
   .home-pricing-card {
     border-radius: var(--dl-radius-radius-radius8);
@@ -1643,6 +1696,8 @@
   }
   .home-education {
     position: relative;
+    padding-top: 100px;
+    padding-bottom: 100px;
     background-size: cover;
     background-image: url("public/playground_assets/gradient1-3500h.jpg");
   }
@@ -1659,11 +1714,8 @@
   }
   .home-education1 {
     gap: 50px;
+    padding: var(--dl-space-space-threeunits);
     align-self: center;
-    padding-top: 170px;
-    padding-left: var(--dl-space-space-threeunits);
-    padding-right: var(--dl-space-space-threeunits);
-    padding-bottom: 80px;
   }
   .home-footer {
     width: 100%;
@@ -1672,6 +1724,7 @@
   }
   .home-image5 {
     width: 300px;
+    margin-bottom: var(--dl-space-space-unit);
   }
   .home-container06 {
     margin-left: 0px;
@@ -1741,59 +1794,5 @@
   }
   .home-icon-group {
     justify-content: center;
-  }
-}
-@media(max-width: 479px) {
-  .home-container02 {
-    padding-top: var(--dl-space-space-twounits);
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
-    padding-bottom: var(--dl-space-space-twounits);
-  }
-  .home-pricing-card2 {
-    margin-bottom: 0px;
-  }
-  .home-education1 {
-    padding-top: var(--dl-space-space-twounits);
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
-    padding-bottom: var(--dl-space-space-twounits);
-  }
-  .home-footer {
-    padding: var(--dl-space-space-unit);
-  }
-  .home-container05 {
-    align-items: center;
-    flex-direction: column;
-  }
-  .home-image6 {
-    margin-bottom: 0px;
-  }
-  .home-text27 {
-    margin-top: var(--dl-space-space-twounits);
-    margin-bottom: var(--dl-space-space-twounits);
-  }
-  .home-text28 {
-    margin-top: var(--dl-space-space-twounits);
-    margin-bottom: var(--dl-space-space-twounits);
-  }
-  .home-links-container {
-    align-items: center;
-    flex-direction: column;
-  }
-  .home-container07 {
-    margin-right: 0px;
-  }
-  .home-container08 {
-    margin-top: var(--dl-space-space-oneandhalfunits);
-    align-items: flex-start;
-    margin-bottom: 0px;
-  }
-  .home-contact {
-    align-items: flex-start;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .home-text34 {
-    text-align: center;
   }
 }
