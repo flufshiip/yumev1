@@ -323,14 +323,14 @@
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
 .home-text {
-  font-size: 46px;
+  font-size: 42px;
   font-style: normal;
 }
 .home-text02 {
-  font-size: 74px;
+  font-size: 64px;
 }
 .home-text04 {
-  font-size: 36px;
+  font-size: 32px;
 }
 .home-link02 {
   display: contents;
@@ -2049,13 +2049,13 @@
     justify-content: space-between;
   }
   .home-container04 {
-    width: var(--dl-size-size-large);
+    width: var(--dl-size-size-xxlarge);
     margin-left: 20px;
     margin-bottom: 30px;
     justify-content: center;
   }
   .home-herotext {
-    width: auto;
+    width: var(--dl-size-size-xlarge);
     font-size: 24px;
     align-self: stretch;
     margin-top: 40px;
@@ -2072,7 +2072,7 @@
     font-style: normal;
   }
   .home-text02 {
-    font-size: 46px;
+    font-size: 36px;
   }
   .home-text03 {
     font-size: 74px;
@@ -2090,6 +2090,7 @@
     align-self: center;
     margin-top: 0px;
     margin-right: 15px;
+    margin-bottom: 30px;
   }
   .home-container05 {
     background-image: linear-gradient(0deg, rgba(254, 172, 94, 0.25) 0.00%,rgba(199, 121, 208, 0.25) 52.00%,rgba(75, 192, 200, 0.25) 99.00%);
@@ -2597,6 +2598,7 @@
     width: 100%;
     height: 100%;
     padding: 50px;
+    z-index: 0;
   }
   .home-skillcard1 {
     border-radius: var(--dl-radius-radius-radius8);
